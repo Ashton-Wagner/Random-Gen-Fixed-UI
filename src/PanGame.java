@@ -53,13 +53,11 @@ public class PanGame extends JPanel implements ActionListener {
   
         }
     }
+    
     ////Changes the BG's x-value
-
     public void MoveChar(int _CharX) {
         nBgX = _CharX;
     }
-    ////
-
     public void actionPerformed(ActionEvent arg0) {
         yeti.move();
         repaint();
